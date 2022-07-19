@@ -1,0 +1,71 @@
+body {
+  background-color: white;
+}
+#contact-container {
+  margin: 100px;
+}
+
+#contact-container h2 {
+  text-align: center;
+  margin: 50px 0;
+}
+#emails-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  margin: 7px 0;
+}
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+#form {
+  margin: 0 15%;
+}
+.text-input {
+  background-color: #f0f0f0;
+  margin-bottom: 0px 0px 16px;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+.text-input:focus {
+  background-color: white;
+  border: black 1px solid;
+  box-shadow: 0 0 5px #8e8e8e;
+}
+.email {
+  color: #8e8e8e;
+}
+label {
+  font-size: 12px;
+  color: #363636;
+}
+#submit-btn {
+  display: flex;
+  justify-content: end;
+}
+#submit {
+  font-size: 14px;
+  line-height: 1;
+  background-color: #363636;
+  color: #f0f0f0;
+  padding: 16px;
+  width: 200px;
+  margin-top: 25px;
+}
+#error-message {
+  padding: 10px;
+  background-color: #f7e4e1;
+  margin-bottom: 20px;
+  display: none;
+}
+#error-message p {
+  display: none;
+}

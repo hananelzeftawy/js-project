@@ -1,0 +1,315 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Montserrat:wght@400&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="logo" src="./imgs/logo.png" alt="website logo">Ecommerce</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link position-relative m-2 active" aria-current="page" href="index.html">
+              <div class="nav-underline"></div> Home
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  position-relative m-2" href="./about.html">
+              <div class="nav-underline"></div>About
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link position-relative m-2" href="./contact.html">
+              <div class="nav-underline"></div>Contact us
+            </a>
+
+
+          </li>
+          <li class="nav-item">
+            <div class="position-relative m-2">
+
+              <a class="nav-link mx-2 h4 position-relative w-auto" href="#" title="cart">
+                <span id="cart" class="">0</span> <i class="  fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="home">
+    <div id="btn-slider-contanier">
+      <button id="slider-left" class="btn-slider"><i class="fa-solid fa-angle-left"></i></button>
+      <button id="slider-rigth" class="btn-slider"><i class="fa-solid fa-angle-right"></i></button>
+
+    </div>
+  </section>
+
+
+  <div>
+    <h2 class="categories">Our Categories</h2>
+    <hr class="first-line">
+    <hr class="second-line">
+    <hr class="third-line">
+  </div>
+
+  <div class="category-title">
+    <ul class="navbar items">
+      <li class="overflow-hidden"><a class="item position-relative " onclick="display('all')">
+          <div class="nav-underline"></div> ALL
+        </a></li>
+      <li class="overflow-hidden"><a class="item position-relative" onclick="display('laptop')">
+          <div class="nav-underline"></div>Laptop
+        </a></li>
+      <li class="overflow-hidden"><a class="item position-relative" onclick="display('mobile')">
+          <div class="nav-underline"></div>Mobile
+        </a></li>
+      <li class="overflow-hidden"><a class="item position-relative" onclick="display('clothes')""><div class="
+          nav-underline">
+  </div>Clothes</a></li>
+  </ul>
+  </div>
+
+  <section class="cards container  py-5 " id="cards">
+    <div class="row" id="row">
+    </div>
+
+
+  </section>
+
+  <section id="Service" class="bg-light py-3">
+    <div class="col-md-7 m-auto">
+      <div>
+        <h2 class="categories">Services</h2>
+        <hr class="first-line">
+        <hr class="second-line">
+        <hr class="third-line">
+      </div>
+      <div class="text-center mt-4">
+        <p class="fs-5">Donec purus est, tincidunt eu sodales quis, vehicula quis enim. Morbi dapibus, tellus a gravida
+          faucibus, elit ipsum sollicitudin risus, id ultricies arcu neque eget velit.</p>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 ">
+          <div class="d-flex service-item">
+            <div class="service-icon main-color fs-4 p-2 me-4">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+              <h3 class="fw-bold fs-5">Responsive Layout</h3>
+              <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="d-flex service-item">
+            <div class="service-icon main-color fs-4 p-2 me-4">
+              <i class="fas fa-pencil-ruler"></i>
+            </div>
+            <div>
+              <h3 class="fw-bold fs-5">Modern Design</h3>
+              <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="d-flex service-item">
+            <div class="service-icon main-color fs-4 p-2 me-4">
+              <i class="far fa-flag"></i>
+            </div>
+            <div>
+              <h3 class="fw-bold fs-5">Font Awesome Icons</h3>
+              <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="d-flex service-item">
+            <div class="service-icon main-color fs-4 p-2 me-4">
+              <i class="far fa-address-card"></i>
+            </div>
+            <div>
+              <h3 class="fw-bold fs-5">Ajax Portfolio </h3>
+              <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="d-flex service-item">
+            <div class="service-icon main-color fs-4 p-2 me-4">
+              <i class="fas fa-cog"></i>
+            </div>
+            <div>
+              <h3 class="fw-bold fs-5">Color Option</h3>
+              <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="d-flex service-item">
+            <div class="service-icon main-color fs-4 p-2 me-4">
+              <i class="fas fa-headphones-alt"></i>
+            </div>
+            <div>
+              <h3 class="fw-bold fs-5">Audio Support</h3>
+              <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="d-flex service-item">
+            <div class="service-icon main-color fs-4 p-2 me-4">
+              <i class="far fa-list-alt"></i>
+            </div>
+            <div>
+              <h3 class="fw-bold fs-5">Well Documented</h3>
+              <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="d-flex service-item">
+            <div class="service-icon main-color fs-4 p-2 me-4">
+              <i class="fas fa-video"></i>
+            </div>
+            <div>
+              <h3 class="fw-bold fs-5">Background Videos</h3>
+              <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="d-flex service-item">
+            <div class="service-icon main-color fs-4 p-2 me-4">
+              <i class="fas fa-sliders-h"></i>
+            </div>
+            <div>
+              <h3 class="fw-bold fs-5">Intro Slider</h3>
+              <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <footer class="footer">
+    <div id="up-container">
+      <div id="up">
+        <button class="fa-solid fa-angles-up text-danger" onclick="upBtn()"></button>
+      </div>
+    </div>
+
+    <div class="container ">
+      <div>
+        <h4> contact Info</h4>
+        <p>1650 Lambord street</p>
+        <p>,San Francisco CA 94132</p>
+        <p>+1(415)876-3250 </p>
+        <p>[email protected]</p>
+      </div>
+      <div>
+        <h4>Useful Links</h4>
+        <p>Support</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+        <p>Affiliate Program</p>
+        <p>Careers</p>
+      </div>
+      <div>
+        <h4>Recent Posts</h4>
+        <p>Sunset in Venice</p>
+        <p>Aerial View of Village</p>
+        <p>The Little Ghost</p>
+        <p>Royal Oats ft. Waldo</p>
+      </div>
+
+      <div id="">
+        <h4>Get In Touch</h4>
+        <div id="footer-contact">
+          <div id="footer-form">
+            <i id="email-icon" class="fa-solid fa-envelope"></i>
+            <input type="text" placeholder="Enter your email" name="" id="footer-text">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="footer-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <footer class="copy-right">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="w-auto">
+          <span class="me-4"><a href=" " class="link1"><i class="fab fa-twitter"></i></a></span>
+          <span class="me-4"><a href="" class="link1"><i class="fab fa-facebook-f "></i></a></span>
+          <span class="me-4"><a href="" class=" link1"> <i class="fab fa-instagram"></i></a></span>
+          <span class="me-4"><a href="" class="link1"><i class="fab fa-whatsapp "></i></a></span>
+
+        </div>
+
+        <div class="w-auto">
+          <img src="./imgs/logo.png" class="logo" alt="">
+        </div>
+
+        <div class="w-auto">
+          <p> Copyright © 2020 <span class="text-white"> <a href="" class="link1">Ecommerce</a></span></p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
